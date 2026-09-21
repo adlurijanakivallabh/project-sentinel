@@ -1,0 +1,5 @@
+Model variant: cnn_transformer
+Accuracy: 99.45
+MCC: 0.9932
+Mean Latency: 0.012 ms
+Latency (P95): 0.018 ms

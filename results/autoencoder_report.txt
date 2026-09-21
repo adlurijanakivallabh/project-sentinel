@@ -1,0 +1,12 @@
+Autoencoder Zero-Day Detection Results
+==================================================
+Threshold (P99): 0.097567
+
+Normal: MSE=0.056197, Flagged=1.3%
+DoS: MSE=0.005766, Flagged=0.4%
+DDoS: MSE=0.212664, Flagged=13.6%
+PortScan/Recon: MSE=0.137455, Flagged=11.0%
+Web/SQLi: MSE=0.248816, Flagged=49.3%
+Malware/Botnet/Exploit: MSE=0.124808, Flagged=0.9%
+
+Overall attack detection: 10.2%

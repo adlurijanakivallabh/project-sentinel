@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Sentinel — IPS Command Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="bg-grid"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="dashboard-wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 2L28 8V16C28 23.2 22.8 29.2 16 30C9.2 29.2 4 23.2 4 16V8L16 2Z" fill="url(#shieldGrad)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+                        <path d="M12 16L15 19L21 13" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                            <linearGradient id="shieldGrad" x1="4" y1="2" x2="28" y2="30">
+                                <stop offset="0%" stop-color="#6366f1"/>
+                                <stop offset="100%" stop-color="#06b6d4"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div>
+                    <h2 class="logo-title">Sentinel</h2>
+                    <span class="logo-badge">IPS v2.0</span>
+                </div>
+            </div>
+
+            <!-- 8-Class V2 Legend -->
+            <div class="sidebar-section">
+                <h4 class="section-label">Detection Classes</h4>
+                <div class="legend-item"><span class="legend-dot" style="--dot-color:#34d399"></span>Normal</div>
+                <div class="legend-item"><span class="legend-dot" style="--dot-color:#f87171"></span>DoS/DDoS</div>
+                <div class="legend-item"><span class="legend-dot" style="--dot-color:#a78bfa"></span>PortScan/Recon</div>
+                <div class="legend-item"><span class="legend-dot" style="--dot-color:#f472b6"></span>Web/Injection</div>
+                <div class="legend-item"><span class="legend-dot" style="--dot-color:#e879f9"></span>Brute Force</div>
+                <div class="legend-item"><span class="legend-dot" style="--dot-color:#38bdf8"></span>Botnet/C2</div>
+                <div class="legend-item"><span class="legend-dot" style="--dot-color:#22d3ee"></span>Malware/Exploit</div>
+                <div class="legend-item"><span class="legend-dot" style="--dot-color:#facc15"></span>Infiltration</div>
+            </div>
+
+            <!-- IPS Status -->
+            <div class="sidebar-section ips-status-section">
+                <h4 class="section-label">Prevention Engine</h4>
+                <div class="ips-toggle-row">
+                    <span>Auto-Block</span>
+                    <button id="ipsToggle" class="ips-toggle active" title="Toggle IPS">ON</button>
+                </div>
+                <div class="ips-toggle-row">
+                    <span>Mode</span>
+                    <span class="ips-mode-badge">DRY RUN</span>
+                </div>
+                <div id="blockedIpsList" class="blocked-ips-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- System Health -->
+            <div class="sidebar-section system-health">
+                <h4 class="section-label">System</h4>
+                <div class="health-row">
+                    <span>Active Model</span>
+                    <span class="health-badge online" id="modelBadge" style="font-size:0.6rem">V2</span>
+                </div>
+                <div class="model-selector-wrap">
+                    <select id="modelSelector" class="model-selector">
+                        <option value="model_v2" selected>SentinelV2 (2.87M)</option>
+                        <option value="cnn_lstm">CNN-LSTM (318K)</option>
+                        <option value="cnn_lstm_attention">CNN-LSTM-Attn (368K)</option>
+                        <option value="cnn_bilstm">CNN-BiLSTM (812K)</option>
+                        <option value="cnn_transformer">CNN-Transformer (346K)</option>
+                    </select>
+                </div>
+                <div class="health-row">
+                    <span>Prevention Engine</span>
+                    <span class="health-badge online" id="ipsHealthBadge">ACTIVE</span>
+                </div>
+                <div class="health-row">
+                    <span>Drift Detector</span>
+                    <span class="health-badge online">BASELINE</span>
+                </div>
+                <div class="health-row">
+                    <span>Live Capture</span>
+                    <span class="health-badge" id="liveCaptureHealthBadge" style="color:#64748b">OFF</span>
+                </div>
+            </div>
+
+            <!-- Live Capture Control -->
+            <div class="sidebar-section ips-status-section">
+                <h4 class="section-label">Live Capture</h4>
+                <div class="ips-toggle-row">
+                    <span>Mode</span>
+                    <button id="liveCaptureToggle" class="ips-toggle" title="Toggle Live Capture">OFF</button>
+                </div>
+                <div id="liveCaptureStats" class="live-capture-stats" style="display:none;">
+                    <div class="live-stat-row"><span>Packets</span><span id="lcPackets">0</span></div>
+                    <div class="live-stat-row"><span>Flows</span><span id="lcFlows">0</span></div>
+                    <div class="live-stat-row"><span>Active</span><span id="lcActive">0</span></div>
+                    <div class="live-stat-row"><span>Windows</span><span id="lcWindows">0</span></div>
+                    <div class="live-stat-row"><span>Attacks</span><span id="lcAttacks">0</span></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Bar -->
+            <header class="top-bar">
+                <div class="top-bar-left">
+                    <h1>IPS Command Center</h1>
+                    <div class="live-indicator" id="liveIndicator">
+                        <span class="live-dot"></span>
+                        <span id="systemStatusMsg">Standby</span>
+                    </div>
+                </div>
+
+                <div class="control-buttons">
+                    <button id="btnStart" class="ctrl-btn ctrl-start">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"><polygon points="3,1 12,7 3,13"/></svg>
+                        Start
+                    </button>
+                    <button id="btnStop" class="ctrl-btn ctrl-stop">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><rect width="12" height="12" rx="2"/></svg>
+                        Stop
+                    </button>
+                    <div class="btn-separator"></div>
+                    <button id="btnNormal" class="inject-btn" data-color="#34d399">Normal</button>
+                    <button id="btnDoS" class="inject-btn" data-color="#f87171">DoS/DDoS</button>
+                    <button id="btnScan" class="inject-btn" data-color="#a78bfa">Scan</button>
+                    <button id="btnSql" class="inject-btn" data-color="#f472b6">Web/Inj</button>
+                    <button id="btnBrute" class="inject-btn" data-color="#e879f9">Brute</button>
+                    <button id="btnBotnet" class="inject-btn" data-color="#38bdf8">Botnet</button>
+                    <button id="btnExploit" class="inject-btn" data-color="#22d3ee">Exploit</button>
+                    <button id="btnInfil" class="inject-btn" data-color="#facc15">Infil</button>
+                </div>
+            </header>
+
+            <!-- Drift Banner (hidden by default) -->
+            <div id="driftBanner" class="drift-banner" style="display:none;">
+                <div class="drift-content">
+                    <span id="driftIcon" class="drift-icon">⚠️</span>
+                    <div>
+                        <strong id="driftTitle">Concept Drift Detected</strong>
+                        <p id="driftMessage">Data distribution shift from training baseline.</p>
+                    </div>
+                </div>
+                <span id="driftSeverity" class="drift-psi">PSI: 0.000</span>
+            </div>
+
+            <!-- KPI Row -->
+            <section class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-icon" style="--kpi-color:#6366f1">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+                    </div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">Packets Scanned</span>
+                        <span class="kpi-value" id="totalPackets">0</span>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon" style="--kpi-color:#f87171">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">Threats Detected</span>
+                        <span class="kpi-value kpi-danger" id="threatsDetected">0</span>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon" style="--kpi-color:#ef4444">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                    </div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">IPs Blocked</span>
+                        <span class="kpi-value kpi-blocked" id="ipsBlocked">0</span>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon" style="--kpi-color:#06b6d4">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">Inference Latency</span>
+                        <span class="kpi-value" id="latencyStat">0.00 ms</span>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon" style="--kpi-color:#34d399">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">Confidence</span>
+                        <span class="kpi-value" id="confidenceStat">—</span>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon" style="--kpi-color:#a78bfa">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M9 12l2 2 4-4"/></svg>
+                    </div>
+                    <div class="kpi-data">
+                        <span class="kpi-label">Model Accuracy</span>
+                        <span class="kpi-value" id="modelAccuracy" style="color:#a78bfa">99.44%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Charts Row -->
+            <section class="charts-row">
+                <div class="chart-card chart-wide">
+                    <div class="chart-header">
+                        <h3>Network Throughput</h3>
+                        <span class="chart-badge">Gbps</span>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="liveTrafficChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>Attack Distribution</h3>
+                        <span class="chart-badge">8-Class</span>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="threatPieChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- IPS Action Log + Event Feed -->
+            <section class="bottom-row">
+                <!-- IPS Blocked IPs Panel -->
+                <div class="panel-card ips-panel">
+                    <div class="panel-header">
+                        <h3>🔒 IPS Prevention Actions</h3>
+                        <button id="btnUnblockAll" class="small-btn danger-btn">Unblock All</button>
+                    </div>
+                    <div class="ips-actions-list" id="ipsActionsList">
+                        <div class="empty-state">No prevention actions yet. Start monitoring and inject attacks.</div>
+                    </div>
+                </div>
+
+                <!-- Live Event Feed -->
+                <div class="panel-card feed-panel">
+                    <div class="panel-header">
+                        <h3>📡 Live Detection Feed</h3>
+                        <span class="feed-count" id="feedCount">0 events</span>
+                    </div>
+                    <div class="feed-table-wrap">
+                        <table class="feed-table">
+                            <thead>
+                                <tr>
+                                    <th>TIME</th>
+                                    <th>SOURCE IP</th>
+                                    <th>CLASS</th>
+                                    <th>ATTACK</th>
+                                    <th>CONF</th>
+                                    <th>IPS ACTION</th>
+                                </tr>
+                            </thead>
+                            <tbody id="feedBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+Cross-Dataset Generalization Test
+============================================================
+Tested on: UNSW-NB15 testing set (held-out)
+Accuracy: 0.0349
+
+                 precision    recall  f1-score   support
+
+         Normal     0.6058    0.0906    0.1577      3001
+       DoS/DDoS     0.0000    0.0000    0.0000        41
+ PortScan/Recon     0.0000    0.0000    0.0000      2744
+  Web/Injection     0.0020    0.9412    0.0040        17
+    Brute Force     0.2250    0.0061    0.0119      2952
+      Botnet/C2     0.0000    0.0000    0.0000        12
+Malware/Exploit     0.0000    0.0000    0.0000         0
+   Infiltration     0.0000    0.0000    0.0000         0
+
+       accuracy                         0.0349      8767
+      macro avg     0.1041    0.1297    0.0217      8767
+   weighted avg     0.2831    0.0349    0.0580      8767

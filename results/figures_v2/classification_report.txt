@@ -1,0 +1,18 @@
+Model: model_v2
+Accuracy: 99.46%
+MCC: 0.9933
+
+                 precision    recall  f1-score   support
+
+         Normal     0.9974    0.9818    0.9895      9986
+       DoS/DDoS     1.0000    1.0000    1.0000      9988
+ PortScan/Recon     0.9991    1.0000    0.9995      2176
+  Web/Injection     1.0000    1.0000    1.0000        12
+    Brute Force     1.0000    0.9997    0.9999      3857
+      Botnet/C2     0.9996    1.0000    0.9998      2815
+Malware/Exploit     1.0000    0.9998    0.9999      8610
+   Infiltration     0.8946    0.9834    0.9369      1570
+
+       accuracy                         0.9946     39014
+      macro avg     0.9863    0.9956    0.9907     39014
+   weighted avg     0.9950    0.9946    0.9947     39014

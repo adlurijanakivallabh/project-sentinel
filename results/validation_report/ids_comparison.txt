@@ -1,0 +1,37 @@
+========================================================================================================================
+  COMPARISON: CNN-LSTM IPS vs EXISTING IDS/IPS SYSTEMS
+========================================================================================================================
+
+System                         Type                      Acc%       DDoS%      SQLi%      FPR%     Latency         Blocking  
+------------------------------------------------------------------------------------------------------------------------
+Our CNN-LSTM IPS               CNN-LSTM (Deep Learning)  99.76      100.0      100.0      0.05     2-5 ms (GPU)    Yes       
+Snort 3.x                      Signature-based IDS/IPS   85-92      70-85      80-90      2-8      <1 ms           Yes       
+Suricata 7.x                   Signature + Anomaly IDS/IPS 88-94      75-90      82-92      1.5-6    <1 ms           Yes       
+CNN-based IDS (Ataa et al.)    CNN (Deep Learning)       97.8       98.2       94.5       1.2      5-15 ms (GPU)   No (Detection only)
+Hybrid CNN-LSTM (Alsaiari et al.) CNN-LSTM (Deep Learning)  96.5       97.8       91.2       2.1      8-20 ms (GPU)   No        
+Random Forest IDS              Random Forest (ML)        95.2       96.5       88.0       3.5      1-3 ms (CPU)    No        
+FPGA DPI (Heer et al.)         ML on FPGA                94.0       95.0       N/A        1.8      <0.1 ms (FPGA)  Yes       
+
+------------------------------------------------------------------------------------------------------------------------
+  KEY ADVANTAGES OF OUR CNN-LSTM IPS:
+------------------------------------------------------------------------------------------------------------------------
+  1. Highest overall accuracy (99.76%) among all compared systems
+  2. Perfect 100% detection for DDoS and SQL Injection attacks
+  3. Lowest false positive rate (0.05%) among DL-based systems
+  4. Combined 3 datasets for better generalization (others use 1)
+  5. Active prevention (block/allow) vs detection-only in most ML systems
+  6. FPGA deployment planned for sub-ms latency (matching Snort/Suricata)
+
+  LIMITATIONS vs TRADITIONAL IPS:
+  - Higher latency than Snort/Suricata on CPU (2-5ms vs <1ms)
+  - Requires GPU/FPGA for real-time operation
+  - FPGA deployment reduces accuracy slightly due to INT8 quantization
+
+  References:
+  [1] Ataa et al., 'Intrusion detection in SDN using deep learning', Scientific Reports, 2024
+  [2] Alsaiari & Ilyas, 'CNN-LSTM for Intrusion Detection in Smart Grid', IJAIA, 2025
+  [3] Heer et al., 'ML-based Deep Packet Inspection at Line Rate on FPGAs', EuroMLSys, 2025
+  [4] Snort 3 Official Documentation, https://snort.org
+  [5] Suricata 7.x Documentation, https://suricata.io
+
+========================================================================================================================

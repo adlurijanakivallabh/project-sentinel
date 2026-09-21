@@ -1,0 +1,31 @@
+# Core
+torch
+torchvision
+torchaudio
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+joblib
+
+# Balancing
+imbalanced-learn
+
+# Explainability
+shap
+
+# ONNX / FPGA
+onnx
+onnxruntime
+onnxscript
+
+# Live capture
+scapy
+
+# Dashboard
+streamlit
+
+# Web dashboard alternative
+flask

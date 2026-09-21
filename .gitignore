@@ -1,0 +1,53 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# ── Virtual Environment ──
+env/
+venv/
+.venv/
+.env
+
+# ── Large Datasets & Intermediate Caches ──
+data/
+results/datasets/
+results/logs/
+results/models/
+results/ips_logs/
+*.pt
+*.pth
+*.pkl
+*.h5
+
+# Allow PYNQ standalone deployment models & sample vectors
+!pynq/*.onnx
+!pynq/*.npz
+
+# ── IDE & Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── No Images or Docs ──
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.bmp
+*.ico
+docs/
+*.docx
+*.pptx
+*.pdf
+
+

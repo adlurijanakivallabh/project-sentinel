@@ -1,0 +1,1602 @@
+[
+  {
+    "timestamp": "2026-03-03T17:15:03.551926",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.53740239143372,
+    "action": "BLOCK",
+    "latency_ms": 48.705000008339994
+  },
+  {
+    "timestamp": "2026-03-03T17:15:03.605697",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.85532855987549,
+    "action": "BLOCK",
+    "latency_ms": 2.706699990085326
+  },
+  {
+    "timestamp": "2026-03-03T17:15:03.657581",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.51176643371582,
+    "action": "BLOCK",
+    "latency_ms": 1.468699992983602
+  },
+  {
+    "timestamp": "2026-03-03T17:15:03.709276",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.8424768447876,
+    "action": "BLOCK",
+    "latency_ms": 1.237300006323494
+  },
+  {
+    "timestamp": "2026-03-03T17:15:03.761277",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99830722808838,
+    "action": "BLOCK",
+    "latency_ms": 1.3067999971099198
+  },
+  {
+    "timestamp": "2026-03-03T17:15:03.815701",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99949932098389,
+    "action": "BLOCK",
+    "latency_ms": 1.8851000058930367
+  },
+  {
+    "timestamp": "2026-03-03T17:15:03.867701",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99938011169434,
+    "action": "BLOCK",
+    "latency_ms": 1.1847999994643033
+  },
+  {
+    "timestamp": "2026-03-03T17:15:03.919371",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99849796295166,
+    "action": "BLOCK",
+    "latency_ms": 1.021099989884533
+  },
+  {
+    "timestamp": "2026-03-03T17:15:03.970661",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99959468841553,
+    "action": "BLOCK",
+    "latency_ms": 0.869399998919107
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.022401",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99977350234985,
+    "action": "BLOCK",
+    "latency_ms": 1.0249999904772267
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.073740",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99278783798218,
+    "action": "BLOCK",
+    "latency_ms": 0.9399999980814755
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.127718",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.66622591018677,
+    "action": "BLOCK",
+    "latency_ms": 3.4593000018503517
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.179116",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.98992681503296,
+    "action": "BLOCK",
+    "latency_ms": 0.8394999895244837
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.233517",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99773502349854,
+    "action": "BLOCK",
+    "latency_ms": 3.4349000052316114
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.286508",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99856948852539,
+    "action": "BLOCK",
+    "latency_ms": 2.2530000132974237
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.338515",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99744892120361,
+    "action": "BLOCK",
+    "latency_ms": 1.263199999812059
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.391465",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.93608593940735,
+    "action": "BLOCK",
+    "latency_ms": 1.2692000018432736
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.443346",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.13761711120605,
+    "action": "BLOCK",
+    "latency_ms": 1.2396999954944476
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.494768",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.29497241973877,
+    "action": "BLOCK",
+    "latency_ms": 0.9804000001167879
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.547009",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.11189675331116,
+    "action": "BLOCK",
+    "latency_ms": 1.3940999924670905
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.599095",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.33136105537415,
+    "action": "BLOCK",
+    "latency_ms": 1.177699989057146
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.652709",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.7111439704895,
+    "action": "BLOCK",
+    "latency_ms": 3.1085999944480136
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.704432",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.77344274520874,
+    "action": "BLOCK",
+    "latency_ms": 0.8411000017076731
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.756253",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.78371262550354,
+    "action": "BLOCK",
+    "latency_ms": 1.1603999882936478
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.808349",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.57538843154907,
+    "action": "BLOCK",
+    "latency_ms": 1.1723999923560768
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.860081",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.71808886528015,
+    "action": "BLOCK",
+    "latency_ms": 0.9142000053543597
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.911778",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.05205464363098,
+    "action": "BLOCK",
+    "latency_ms": 1.06229999801144
+  },
+  {
+    "timestamp": "2026-03-03T17:15:04.965915",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 96.70714735984802,
+    "action": "BLOCK",
+    "latency_ms": 3.579699987312779
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.017907",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.42238926887512,
+    "action": "BLOCK",
+    "latency_ms": 1.0972999880323187
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.069782",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.83564019203186,
+    "action": "BLOCK",
+    "latency_ms": 1.1728999961633235
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.121732",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.87394213676453,
+    "action": "BLOCK",
+    "latency_ms": 1.1319000041112304
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.173129",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.55483675003052,
+    "action": "BLOCK",
+    "latency_ms": 0.9316000068793073
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.225306",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.07218217849731,
+    "action": "BLOCK",
+    "latency_ms": 1.1962999997194856
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.277329",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9691367149353,
+    "action": "BLOCK",
+    "latency_ms": 1.0852999985218048
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.331713",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.90622401237488,
+    "action": "BLOCK",
+    "latency_ms": 3.460699997958727
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.383319",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.99634718894958,
+    "action": "BLOCK",
+    "latency_ms": 1.073300009011291
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.434858",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99679327011108,
+    "action": "BLOCK",
+    "latency_ms": 0.9707999997772276
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.486326",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99966621398926,
+    "action": "BLOCK",
+    "latency_ms": 0.9957000002032146
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.538001",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99972581863403,
+    "action": "BLOCK",
+    "latency_ms": 1.031499996315688
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.589726",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99969005584717,
+    "action": "BLOCK",
+    "latency_ms": 1.1027000000467524
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.641653",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99610185623169,
+    "action": "BLOCK",
+    "latency_ms": 1.073000006726943
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.694793",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9727189540863,
+    "action": "BLOCK",
+    "latency_ms": 2.4399999965680763
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.746415",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 97.53590822219849,
+    "action": "BLOCK",
+    "latency_ms": 1.1699000024236739
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.799137",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 97.1553087234497,
+    "action": "BLOCK",
+    "latency_ms": 1.8568999948911369
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.851083",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9961256980896,
+    "action": "BLOCK",
+    "latency_ms": 1.192399999126792
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.902969",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99905824661255,
+    "action": "BLOCK",
+    "latency_ms": 1.1509000032674521
+  },
+  {
+    "timestamp": "2026-03-03T17:15:05.957278",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.95118379592896,
+    "action": "BLOCK",
+    "latency_ms": 1.3189000019337982
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.009918",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.71011972427368,
+    "action": "BLOCK",
+    "latency_ms": 2.067900000838563
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.061826",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99213218688965,
+    "action": "BLOCK",
+    "latency_ms": 1.066299999365583
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.113625",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99959468841553,
+    "action": "BLOCK",
+    "latency_ms": 1.40310000278987
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.165211",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.89981055259705,
+    "action": "BLOCK",
+    "latency_ms": 1.0047999967355281
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.217270",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 97.19666838645935,
+    "action": "BLOCK",
+    "latency_ms": 1.1270999966654927
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.269180",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99229907989502,
+    "action": "BLOCK",
+    "latency_ms": 1.0006999946199358
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.323103",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99943971633911,
+    "action": "BLOCK",
+    "latency_ms": 3.279199998360127
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.374532",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.98873472213745,
+    "action": "BLOCK",
+    "latency_ms": 0.978900003246963
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.426355",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9127209186554,
+    "action": "BLOCK",
+    "latency_ms": 1.0604999988572672
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.477710",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99632835388184,
+    "action": "BLOCK",
+    "latency_ms": 0.967200001468882
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.529782",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99958276748657,
+    "action": "BLOCK",
+    "latency_ms": 1.167199996416457
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.581638",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99945163726807,
+    "action": "BLOCK",
+    "latency_ms": 1.1526000016601756
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.634140",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99926090240479,
+    "action": "BLOCK",
+    "latency_ms": 1.680600005784072
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.686011",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9863862991333,
+    "action": "BLOCK",
+    "latency_ms": 1.3310000067576766
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.740106",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.95905756950378,
+    "action": "BLOCK",
+    "latency_ms": 3.5659999994095415
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.792013",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99161958694458,
+    "action": "BLOCK",
+    "latency_ms": 1.2788000021828339
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.843946",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9993085861206,
+    "action": "BLOCK",
+    "latency_ms": 0.8877999935066327
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.895893",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.73801970481873,
+    "action": "BLOCK",
+    "latency_ms": 1.19420001283288
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.947619",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 97.98249006271362,
+    "action": "BLOCK",
+    "latency_ms": 1.0111000010510907
+  },
+  {
+    "timestamp": "2026-03-03T17:15:06.999433",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 97.01513648033142,
+    "action": "BLOCK",
+    "latency_ms": 1.1986000026809052
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.051163",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.64503145217896,
+    "action": "BLOCK",
+    "latency_ms": 0.9145999938482419
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.103966",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99258518218994,
+    "action": "BLOCK",
+    "latency_ms": 1.0084999958053231
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.155682",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99964237213135,
+    "action": "BLOCK",
+    "latency_ms": 0.9274999902117997
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.207391",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99886751174927,
+    "action": "BLOCK",
+    "latency_ms": 0.974299997324124
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.259062",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99816417694092,
+    "action": "BLOCK",
+    "latency_ms": 0.7869999972172081
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.310783",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99887943267822,
+    "action": "BLOCK",
+    "latency_ms": 0.8955999946920201
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.363515",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99814033508301,
+    "action": "BLOCK",
+    "latency_ms": 2.1747999999206513
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.415149",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99592304229736,
+    "action": "BLOCK",
+    "latency_ms": 0.8716000011190772
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.467074",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99620914459229,
+    "action": "BLOCK",
+    "latency_ms": 1.1200000008102506
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.518471",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99310970306396,
+    "action": "BLOCK",
+    "latency_ms": 0.9330000029876828
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.570489",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99661445617676,
+    "action": "BLOCK",
+    "latency_ms": 1.2527999933809042
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.622937",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.996817111969,
+    "action": "BLOCK",
+    "latency_ms": 1.7654999974183738
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.674659",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99839067459106,
+    "action": "BLOCK",
+    "latency_ms": 1.1042999976780266
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.729083",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99047517776489,
+    "action": "BLOCK",
+    "latency_ms": 3.831599999102764
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.781246",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.97833371162415,
+    "action": "BLOCK",
+    "latency_ms": 1.1649999942164868
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.833015",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99608993530273,
+    "action": "BLOCK",
+    "latency_ms": 1.0045000090030953
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.885131",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99934434890747,
+    "action": "BLOCK",
+    "latency_ms": 1.2036999978590757
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.937052",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99955892562866,
+    "action": "BLOCK",
+    "latency_ms": 1.467400012188591
+  },
+  {
+    "timestamp": "2026-03-03T17:15:07.991054",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9990463256836,
+    "action": "BLOCK",
+    "latency_ms": 3.3910000056494027
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.042719",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99858140945435,
+    "action": "BLOCK",
+    "latency_ms": 0.9384999866597354
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.094316",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99938011169434,
+    "action": "BLOCK",
+    "latency_ms": 0.9878999990178272
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.145971",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99960660934448,
+    "action": "BLOCK",
+    "latency_ms": 0.9860999998636544
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.197904",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99963045120239,
+    "action": "BLOCK",
+    "latency_ms": 0.9197000035783276
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.249239",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99943971633911,
+    "action": "BLOCK",
+    "latency_ms": 0.8264000061899424
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.300741",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99861717224121,
+    "action": "BLOCK",
+    "latency_ms": 0.9367000020574778
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.352438",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99957084655762,
+    "action": "BLOCK",
+    "latency_ms": 1.095500003430061
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.404349",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99979734420776,
+    "action": "BLOCK",
+    "latency_ms": 1.1038999946322292
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.455870",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99653100967407,
+    "action": "BLOCK",
+    "latency_ms": 0.9005999891087413
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.507222",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.93543028831482,
+    "action": "BLOCK",
+    "latency_ms": 0.9018999990075827
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.558739",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.97130036354065,
+    "action": "BLOCK",
+    "latency_ms": 0.8977999968919903
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.610470",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99853372573853,
+    "action": "BLOCK",
+    "latency_ms": 0.9197000035783276
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.662463",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99204874038696,
+    "action": "BLOCK",
+    "latency_ms": 1.171800002339296
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.714204",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99876022338867,
+    "action": "BLOCK",
+    "latency_ms": 1.0668999893823639
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.766010",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99951124191284,
+    "action": "BLOCK",
+    "latency_ms": 1.0117000056197867
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.817526",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99936819076538,
+    "action": "BLOCK",
+    "latency_ms": 1.0780000011436641
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.868814",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99895095825195,
+    "action": "BLOCK",
+    "latency_ms": 0.8627999923191965
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.920996",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99912977218628,
+    "action": "BLOCK",
+    "latency_ms": 1.2550999963423237
+  },
+  {
+    "timestamp": "2026-03-03T17:15:08.972599",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99970197677612,
+    "action": "BLOCK",
+    "latency_ms": 0.912499992409721
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.024116",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99973773956299,
+    "action": "BLOCK",
+    "latency_ms": 0.8900999964680523
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.076170",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99966621398926,
+    "action": "BLOCK",
+    "latency_ms": 1.1347999970894307
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.127912",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9991774559021,
+    "action": "BLOCK",
+    "latency_ms": 1.174599994556047
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.179706",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99927282333374,
+    "action": "BLOCK",
+    "latency_ms": 1.2030000070808455
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.231032",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99896287918091,
+    "action": "BLOCK",
+    "latency_ms": 0.8381999941775575
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.282654",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9981164932251,
+    "action": "BLOCK",
+    "latency_ms": 1.0486999963177368
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.334402",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9976634979248,
+    "action": "BLOCK",
+    "latency_ms": 0.967200001468882
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.386086",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9995470046997,
+    "action": "BLOCK",
+    "latency_ms": 0.8590000070398673
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.437737",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99948740005493,
+    "action": "BLOCK",
+    "latency_ms": 1.1369999992894009
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.489599",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.40261840820312,
+    "action": "BLOCK",
+    "latency_ms": 1.1331999994581565
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.541141",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 91.77963137626648,
+    "action": "BLOCK",
+    "latency_ms": 0.9587999957147986
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.592603",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99603033065796,
+    "action": "BLOCK",
+    "latency_ms": 0.799599991296418
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.644162",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99972581863403,
+    "action": "BLOCK",
+    "latency_ms": 0.7722000009380281
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.695858",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.93005990982056,
+    "action": "BLOCK",
+    "latency_ms": 1.1324999941280112
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.747687",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.41833710670471,
+    "action": "BLOCK",
+    "latency_ms": 0.8725999941816553
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.799353",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.75534081459045,
+    "action": "BLOCK",
+    "latency_ms": 1.1011000024154782
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.851412",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99504089355469,
+    "action": "BLOCK",
+    "latency_ms": 1.2855000095441937
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.903027",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9974012374878,
+    "action": "BLOCK",
+    "latency_ms": 0.8265999931609258
+  },
+  {
+    "timestamp": "2026-03-03T17:15:09.954960",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99918937683105,
+    "action": "BLOCK",
+    "latency_ms": 1.120700006140396
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.006661",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99752044677734,
+    "action": "BLOCK",
+    "latency_ms": 1.1228000075789168
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.058493",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99014139175415,
+    "action": "BLOCK",
+    "latency_ms": 1.1521999986143783
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.110246",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99899864196777,
+    "action": "BLOCK",
+    "latency_ms": 1.161000007414259
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.161995",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99977350234985,
+    "action": "BLOCK",
+    "latency_ms": 1.0554000036790967
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.214794",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99512434005737,
+    "action": "BLOCK",
+    "latency_ms": 1.0913000005530193
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.266964",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 97.5964367389679,
+    "action": "BLOCK",
+    "latency_ms": 1.3793000107398257
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.319564",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.98229146003723,
+    "action": "BLOCK",
+    "latency_ms": 1.5568999951938167
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.372330",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99971389770508,
+    "action": "BLOCK",
+    "latency_ms": 1.6214999923249707
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.424614",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99457597732544,
+    "action": "BLOCK",
+    "latency_ms": 1.2008000048808753
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.477461",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.95794892311096,
+    "action": "BLOCK",
+    "latency_ms": 2.079300000332296
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.529271",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.18602108955383,
+    "action": "BLOCK",
+    "latency_ms": 0.9531999967293814
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.580854",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 97.43183255195618,
+    "action": "BLOCK",
+    "latency_ms": 1.0967999987769872
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.633384",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.76525902748108,
+    "action": "BLOCK",
+    "latency_ms": 2.0080999966012314
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.685260",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 96.7070996761322,
+    "action": "BLOCK",
+    "latency_ms": 1.0840999893844128
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.736972",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.90850687026978,
+    "action": "BLOCK",
+    "latency_ms": 1.2261999945621938
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.788872",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9946117401123,
+    "action": "BLOCK",
+    "latency_ms": 0.9925000049406663
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.840822",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99903440475464,
+    "action": "BLOCK",
+    "latency_ms": 0.963500002399087
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.892949",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99953508377075,
+    "action": "BLOCK",
+    "latency_ms": 1.171500000054948
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.945217",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99953508377075,
+    "action": "BLOCK",
+    "latency_ms": 1.408099997206591
+  },
+  {
+    "timestamp": "2026-03-03T17:15:10.997327",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99966621398926,
+    "action": "BLOCK",
+    "latency_ms": 1.17859999591019
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.049525",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99949932098389,
+    "action": "BLOCK",
+    "latency_ms": 1.105399991502054
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.101173",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99966621398926,
+    "action": "BLOCK",
+    "latency_ms": 1.1702000047080219
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.152750",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99451637268066,
+    "action": "BLOCK",
+    "latency_ms": 0.9599999903002754
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.204463",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.91315007209778,
+    "action": "BLOCK",
+    "latency_ms": 0.9080000018002465
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.256272",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.4755744934082,
+    "action": "BLOCK",
+    "latency_ms": 0.8491000044159591
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.308092",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.36645722389221,
+    "action": "BLOCK",
+    "latency_ms": 0.9611999994376674
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.359641",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.31125044822693,
+    "action": "BLOCK",
+    "latency_ms": 0.9651000000303611
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.411734",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 96.17640376091003,
+    "action": "BLOCK",
+    "latency_ms": 1.531799993244931
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.464463",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.33472871780396,
+    "action": "BLOCK",
+    "latency_ms": 1.8874999950639904
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.516268",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.84525442123413,
+    "action": "BLOCK",
+    "latency_ms": 0.9142000053543597
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.568098",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.81399774551392,
+    "action": "BLOCK",
+    "latency_ms": 1.007500002742745
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.619838",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.8108217716217,
+    "action": "BLOCK",
+    "latency_ms": 1.1777000036090612
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.671637",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 96.90048098564148,
+    "action": "BLOCK",
+    "latency_ms": 0.9691000013845041
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.725378",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.6907651424408,
+    "action": "BLOCK",
+    "latency_ms": 3.089999998337589
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.777113",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.98248219490051,
+    "action": "BLOCK",
+    "latency_ms": 1.0217000090051442
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.829153",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99467134475708,
+    "action": "BLOCK",
+    "latency_ms": 1.1852999887196347
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.884517",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.96107220649719,
+    "action": "BLOCK",
+    "latency_ms": 4.275300001609139
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.935925",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.84039664268494,
+    "action": "BLOCK",
+    "latency_ms": 0.8948000031523407
+  },
+  {
+    "timestamp": "2026-03-03T17:15:11.987659",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.98648166656494,
+    "action": "BLOCK",
+    "latency_ms": 0.9777999948710203
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.039875",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.86504912376404,
+    "action": "BLOCK",
+    "latency_ms": 1.1852999887196347
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.093945",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.49357509613037,
+    "action": "BLOCK",
+    "latency_ms": 3.2725000055506825
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.145861",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.36367273330688,
+    "action": "BLOCK",
+    "latency_ms": 1.02530000731349
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.197618",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.10377955436707,
+    "action": "BLOCK",
+    "latency_ms": 0.9315999923273921
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.249339",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.0915596485138,
+    "action": "BLOCK",
+    "latency_ms": 1.1664000048767775
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.301293",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.90260601043701,
+    "action": "BLOCK",
+    "latency_ms": 1.1027000000467524
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.352814",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.897301197052,
+    "action": "BLOCK",
+    "latency_ms": 0.9178000036627054
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.404151",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.97745156288147,
+    "action": "BLOCK",
+    "latency_ms": 0.8362000080524012
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.455954",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99339580535889,
+    "action": "BLOCK",
+    "latency_ms": 1.0981999948853627
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.508168",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9797523021698,
+    "action": "BLOCK",
+    "latency_ms": 1.5382000128738582
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.562189",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.83306527137756,
+    "action": "BLOCK",
+    "latency_ms": 3.546499996446073
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.613546",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.7041642665863,
+    "action": "BLOCK",
+    "latency_ms": 0.8793000015430152
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.665078",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.98886585235596,
+    "action": "BLOCK",
+    "latency_ms": 0.8615999977337196
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.716519",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99891519546509,
+    "action": "BLOCK",
+    "latency_ms": 0.8802999946055934
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.769482",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99945163726807,
+    "action": "BLOCK",
+    "latency_ms": 1.0564999975031242
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.821474",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99911785125732,
+    "action": "BLOCK",
+    "latency_ms": 1.1889000015798956
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.873153",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9961256980896,
+    "action": "BLOCK",
+    "latency_ms": 0.9094999986700714
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.925149",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.95496869087219,
+    "action": "BLOCK",
+    "latency_ms": 1.1384999961592257
+  },
+  {
+    "timestamp": "2026-03-03T17:15:12.976786",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.12721514701843,
+    "action": "BLOCK",
+    "latency_ms": 0.8823999960441142
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.028549",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 98.66319298744202,
+    "action": "BLOCK",
+    "latency_ms": 1.1140999995404854
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.080236",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 97.06853032112122,
+    "action": "BLOCK",
+    "latency_ms": 0.8649999945191666
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.132707",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.86114501953125,
+    "action": "BLOCK",
+    "latency_ms": 1.9184999982826412
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.184398",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9944806098938,
+    "action": "BLOCK",
+    "latency_ms": 0.8465999999316409
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.236586",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.97285008430481,
+    "action": "BLOCK",
+    "latency_ms": 1.4328999968711287
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.288200",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.82781410217285,
+    "action": "BLOCK",
+    "latency_ms": 0.9798999963095412
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.339827",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.98379945755005,
+    "action": "BLOCK",
+    "latency_ms": 1.1996000102953985
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.392174",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.96240139007568,
+    "action": "BLOCK",
+    "latency_ms": 1.445899993996136
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.444461",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.96138215065002,
+    "action": "BLOCK",
+    "latency_ms": 1.51940000068862
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.496448",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.95712637901306,
+    "action": "BLOCK",
+    "latency_ms": 1.2129999959142879
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.547787",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.95545744895935,
+    "action": "BLOCK",
+    "latency_ms": 0.872799995704554
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.600036",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.93686079978943,
+    "action": "BLOCK",
+    "latency_ms": 1.5447000041604042
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.652218",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99431371688843,
+    "action": "BLOCK",
+    "latency_ms": 1.2765999999828637
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.704304",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99922513961792,
+    "action": "BLOCK",
+    "latency_ms": 1.2336999934632331
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.755788",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.98303651809692,
+    "action": "BLOCK",
+    "latency_ms": 0.974299997324124
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.807772",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.46972131729126,
+    "action": "BLOCK",
+    "latency_ms": 1.4002000098116696
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.860075",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.9937891960144,
+    "action": "BLOCK",
+    "latency_ms": 1.2025000032735988
+  },
+  {
+    "timestamp": "2026-03-03T17:15:13.911742",
+    "prediction": "DDoS/DoS",
+    "class_id": 1,
+    "confidence": 99.99924898147583,
+    "action": "BLOCK",
+    "latency_ms": 0.9160000045085326
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-04-22 11:39:56",
+  "pytorch_version": "2.10.0+cu126",
+  "cuda_available": true,
+  "cuda_version": "12.6",
+  "benchmarks": {
+    "model_v2": {
+      "model": "model_v2",
+      "device": "cuda",
+      "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+      "params": 2870228,
+      "num_features": 30,
+      "sequence_length": 20,
+      "avg_bytes_per_flow": 400,
+      "results": [
+        {
+          "batch_size": 1,
+          "ms_per_batch": 1.6252,
+          "std_ms": 0.0346,
+          "windows_per_sec": 615.3,
+          "flows_per_sec": 12306.2,
+          "gbps_estimated": 0.039,
+          "ms_per_window": 1.6252
+        },
+        {
+          "batch_size": 4,
+          "ms_per_batch": 1.6074,
+          "std_ms": 0.0474,
+          "windows_per_sec": 2488.6,
+          "flows_per_sec": 49771.2,
+          "gbps_estimated": 0.159,
+          "ms_per_window": 0.4018
+        },
+        {
+          "batch_size": 16,
+          "ms_per_batch": 2.6831,
+          "std_ms": 0.0237,
+          "windows_per_sec": 5963.2,
+          "flows_per_sec": 119263.6,
+          "gbps_estimated": 0.382,
+          "ms_per_window": 0.1677
+        },
+        {
+          "batch_size": 64,
+          "ms_per_batch": 8.6887,
+          "std_ms": 0.0174,
+          "windows_per_sec": 7365.9,
+          "flows_per_sec": 147318.1,
+          "gbps_estimated": 0.471,
+          "ms_per_window": 0.1358
+        },
+        {
+          "batch_size": 128,
+          "ms_per_batch": 16.3682,
+          "std_ms": 0.0138,
+          "windows_per_sec": 7820.0,
+          "flows_per_sec": 156400.9,
+          "gbps_estimated": 0.5,
+          "ms_per_window": 0.1279
+        },
+        {
+          "batch_size": 256,
+          "ms_per_batch": 32.9602,
+          "std_ms": 0.0061,
+          "windows_per_sec": 7766.9,
+          "flows_per_sec": 155338.7,
+          "gbps_estimated": 0.497,
+          "ms_per_window": 0.1288
+        },
+        {
+          "batch_size": 512,
+          "ms_per_batch": 63.3569,
+          "std_ms": 0.0039,
+          "windows_per_sec": 8081.2,
+          "flows_per_sec": 161624.2,
+          "gbps_estimated": 0.517,
+          "ms_per_window": 0.1237
+        },
+        {
+          "batch_size": 1024,
+          "ms_per_batch": 125.9038,
+          "std_ms": 0.06,
+          "windows_per_sec": 8133.2,
+          "flows_per_sec": 162663.9,
+          "gbps_estimated": 0.521,
+          "ms_per_window": 0.123
+        }
+      ],
+      "peak": {
+        "batch_size": 1024,
+        "ms_per_batch": 125.9038,
+        "std_ms": 0.06,
+        "windows_per_sec": 8133.2,
+        "flows_per_sec": 162663.9,
+        "gbps_estimated": 0.521,
+        "ms_per_window": 0.123
+      }
+    }
+  }
+}

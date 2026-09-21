@@ -1,0 +1,45 @@
+=================================================================
+  FPGA DEPLOYMENT BENCHMARK REPORT
+  CNN-LSTM Intrusion Prevention System
+=================================================================
+
+PLATFORM COMPARISON
+-----------------------------------------------------------------
+Metric                    
+Metric                          CPU FP32       CPU INT8    FPGA (est.)
+-----------------------------------------------------------------
+  Accuracy (%)                     99.63          99.67          99.67
+  Latency (ms)                     0.608          0.891          0.043
+  Throughput (s/s)                 13256          15102          23412
+  Model Size (KB)                   1112            344            164
+  Power (W)                         65.0           65.0            2.5
+
+-----------------------------------------------------------------
+
+FPGA RESOURCE UTILIZATION (Zynq-7020 Estimate)
+-----------------------------------------------------------------
+  DSP Blocks : 166816 /    220 (100.0%)
+  BRAM (KB)  :  165.4 /    560 (29.5%)
+  LUTs       : 334986 /  53200 (629.7%)
+  Weight Size: 163.6 KB (INT8)
+
+-----------------------------------------------------------------
+
+KEY FINDINGS
+-----------------------------------------------------------------
+  FPGA speedup vs CPU FP32: 14.2x faster
+  FPGA speedup vs CPU INT8: 20.9x faster
+  Power efficiency vs CPU : 26x less power
+  INT8 accuracy drop      : -0.03%
+
+-----------------------------------------------------------------
+
+DEPLOYMENT RECOMMENDATION
+-----------------------------------------------------------------
+  The CNN-LSTM model with INT8 quantization is suitable for
+  FPGA deployment on Xilinx Zynq-7020 or similar platforms.
+  For optimal FPGA performance, use the CNN-FPGA variant
+  (temporal Conv1D instead of LSTM) which eliminates
+  recurrent dependencies and maps efficiently to DSP blocks.
+
+=================================================================

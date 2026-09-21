@@ -1,0 +1,79 @@
+======================================================================
+FEATURE CORRELATION ANALYSIS & PRUNING REPORT
+Project Sentinel — MTech Thesis
+======================================================================
+
+1. FEATURE IMPORTANCE RANKING (Random Forest)
+--------------------------------------------------
+  Flow Packets/s                       0.111000
+  Destination Port                     0.104300
+  Fwd Packet Length Min                0.089600
+  Fwd Packet Length Mean               0.069800
+  Fwd Packet Length Max                0.069400
+  Flow Duration                        0.065400
+  Total Length of Fwd Packets          0.056900
+  Flow IAT Max                         0.047200
+  Flow IAT Mean                        0.040100
+  Flow Bytes/s                         0.039600
+  Flow IAT Min                         0.039200
+  Fwd Packet Length Std                0.038000
+  Total Backward Packets               0.037900
+  Bwd Packet Length Mean               0.034200
+  Flow IAT Std                         0.031800
+  Total Fwd Packets                    0.030800
+  Bwd Packet Length Max                0.022600
+  Total Length of Bwd Packets          0.022600
+  Bwd Packet Length Min                0.020400
+  Bwd Packet Length Std                0.019100
+  Protocol                             0.009400
+  Fwd PSH Flags                        0.000600
+  Fwd URG Flags                        0.000100
+  Bwd PSH Flags                        0.000000
+  Bwd URG Flags                        0.000000
+
+2. REDUNDANT PAIRS (|r| > 0.95)
+--------------------------------------------------
+  Total Fwd Packets ↔ Total Length of Fwd Packets: r=0.9940
+  Flow IAT Mean ↔ Flow IAT Min: r=0.9860
+
+3. PRUNING RECOMMENDATION
+--------------------------------------------------
+  Original: 25 features
+  Drop:     5 features
+  Keep:     20 features
+
+  Features to DROP:
+    ✗ Bwd PSH Flags
+      Near-zero importance (0.000000)
+    ✗ Bwd URG Flags
+      Near-zero importance (0.000000)
+    ✗ Flow IAT Min
+      Redundant with Flow IAT Mean (r=0.986), lower importance (0.0392 vs 0.0401)
+    ✗ Fwd URG Flags
+      Near-zero importance (0.000095)
+    ✗ Total Fwd Packets
+      Redundant with Total Length of Fwd Packets (r=0.994), lower importance (0.0308 vs 0.0569)
+
+  Features to KEEP (20):
+    ✓ Flow Packets/s
+    ✓ Destination Port
+    ✓ Fwd Packet Length Min
+    ✓ Fwd Packet Length Mean
+    ✓ Fwd Packet Length Max
+    ✓ Flow Duration
+    ✓ Total Length of Fwd Packets
+    ✓ Flow IAT Max
+    ✓ Flow IAT Mean
+    ✓ Flow Bytes/s
+    ✓ Fwd Packet Length Std
+    ✓ Total Backward Packets
+    ✓ Bwd Packet Length Mean
+    ✓ Flow IAT Std
+    ✓ Bwd Packet Length Max
+    ✓ Total Length of Bwd Packets
+    ✓ Bwd Packet Length Min
+    ✓ Bwd Packet Length Std
+    ✓ Protocol
+    ✓ Fwd PSH Flags
+
+======================================================================

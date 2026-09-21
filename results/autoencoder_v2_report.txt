@@ -1,0 +1,13 @@
+Autoencoder V2 (Window-Level LSTM) Detection Results
+=======================================================
+Architecture: LSTM Encoder-Decoder (window-level)
+Threshold (threshold_p99): 0.992395
+
+Normal: MSE=0.514090, Flagged=0.8%
+DoS: MSE=0.102767, Flagged=0.0%
+DDoS: MSE=3.199816, Flagged=37.6%
+PortScan/Recon: MSE=5.992948, Flagged=49.1%
+Web/SQLi: MSE=2.188891, Flagged=97.0%
+Malware/Botnet/Exploit: MSE=0.517147, Flagged=2.3%
+
+Overall attack detection: 26.1%

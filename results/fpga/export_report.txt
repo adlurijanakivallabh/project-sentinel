@@ -1,0 +1,26 @@
+============================================================
+  FPGA EXPORT REPORT — CNN-LSTM IPS
+============================================================
+
+MODEL EXPORT STATUS
+  ONNX Export     : DONE
+  ONNX Verified   : PASS
+  INT8 Quantized  : DONE
+
+MODEL SIZES
+  FP32 (Original) : 2504.3 KB
+  INT8 (Quantized): 385.8 KB
+  Compression     : 6.5x
+
+ACCURACY COMPARISON
+  FP32 (Original): Acc=99.40%, Latency=0.124 ms/sample
+  INT8 (Quantized): Acc=99.40%, Latency=0.128 ms/sample
+
+  Accuracy Drop   : 0.00%
+  Status          : ACCEPTABLE
+
+DEPLOYMENT READINESS
+  ONNX file       : C:\Users\Janaki\Desktop\project2\results\fpga\cnn_lstm.onnx
+  Quantized model : C:\Users\Janaki\Desktop\project2\results\fpga\cnn_lstm_int8.pth
+  Ready for Vitis AI / hls4ml / OpenVINO conversion
+============================================================

@@ -1,0 +1,18 @@
+Model: cnn_transformer
+Accuracy: 99.45%
+MCC: 0.9932
+
+                 precision    recall  f1-score   support
+
+         Normal     0.9946    0.9858    0.9902      9986
+       DoS/DDoS     1.0000    0.9999    0.9999      9988
+ PortScan/Recon     0.9954    0.9991    0.9972      2176
+  Web/Injection     0.6667    1.0000    0.8000        12
+    Brute Force     1.0000    0.9997    0.9999      3857
+      Botnet/C2     0.9996    1.0000    0.9998      2815
+Malware/Exploit     0.9998    0.9984    0.9991      8610
+   Infiltration     0.9144    0.9656    0.9393      1570
+
+       accuracy                         0.9945     39014
+      macro avg     0.9463    0.9936    0.9657     39014
+   weighted avg     0.9947    0.9945    0.9946     39014
